@@ -1,0 +1,26 @@
+/* navigation */
+
+.navbar {
+  grid-area: nav;
+  background-color: #000;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 20px;
+}
+
+.navbar__title {
+  font-family: 'Playfair Display', serif;
+  font-size: 2em;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.navbar__menu {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  list-style-type: none;
+  font-size: 1.2em;
+  gap: 1em;
+}

@@ -1,0 +1,15 @@
+@import "layout.css";
+@import "navbar.css";
+@import "footer.css";
+@import "content.css";
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 6px;
+  min-height: 100vh;
+  grid-template-areas:
+  "nav"
+  "main"
+  "ft";
+}
