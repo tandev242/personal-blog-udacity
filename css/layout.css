@@ -87,6 +87,10 @@ u {
   letter-spacing: 0.05em;
 }
 
+ul {
+  list-style-position: inside;
+}
+
 figcaption {
   font-style: italic;
   font-size: 0.8em;

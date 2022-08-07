@@ -1,0 +1,40 @@
+.main {
+  grid-area: main;
+  display: flex;
+  justify-content: center;
+  padding: 0 10%;
+  gap: 1em;
+}
+
+.post {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+
+.post img {
+  margin: 1em 0;
+}
+
+.post__author {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+}
+
+.sidebar {
+  display: flex;
+  justify-content:center;
+  background-color: #fff;
+  border: 1px solid #fff;
+  flex: 1;
+}
+
+.related-post {
+  position: fixed;
+}
+
+.featured-post {
+  position: fixed;
+}

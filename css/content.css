@@ -1,4 +1,4 @@
-.content {
+.main {
   grid-area: main;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -23,8 +23,6 @@
   background-color: #fff;
 }
 
-/* .post__info {
-} */
 .post__info__details {
   width: 100%;
   margin: 10px 0;
@@ -45,7 +43,6 @@
 .post__info__title {
   text-decoration: none;
   font-size: 2em;
-  font-weight: bold;
 }
 
 .post__info__title--sub {
@@ -81,4 +78,31 @@
 img {
   width: 100%;
   object-fit: cover;
+}
+
+
+@media(max-width: 960px) {
+  .main {
+    grid-area: main;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 6px;
+    grid-template-areas:
+    "p1"
+    "p2"
+    "p3"
+    "p4"
+    "p5"
+    "p6";
+    width: 100%;
+    padding: 0;
+  }
+
+  .post__info__title {
+    font-size: 1.2em;
+  }
+
+  .post__info__details {
+    display: none;
+  }
 }
