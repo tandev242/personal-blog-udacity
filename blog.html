@@ -14,7 +14,7 @@
 
 <body>
   <div class="container">
-    <div class="navbar">
+    <header class="navbar">
       <div class="navbar__title">Tan's blog</div>
       <ul class="navbar__menu">
         <li class="navbar__menu-item">
@@ -24,9 +24,9 @@
           <a href="blog.html">Blog</a>
         </li>
       </ul>
-    </div>
+    </header>
     <div class="main">
-      <div class="post">
+      <section class="post">
         <h1 class="post__title">
           Udacity Review: Is Udacity Worth It?
         </h1>
@@ -35,15 +35,22 @@
           <img class="author__avatar" src="./img/tan2k.jpg" alt="author" />
           <button class="btn btn--secondary"> Follow </button>
         </div>
-        <img src="./img/udacity.jpg" alt="udacity" />
-        <div class="entry-content">
-          <p>Udacity is committed to partnering with organizations to sponsor scholarship programs for underrepresented
-            groups and one partnership is with UnderDog Devs.&nbsp;<br><br>UnderDog Devs, founded in September of 2020,
+        <article>
+          <blockquote> Udacity is committed to partnering with organizations to sponsor scholarship programs for underrepresented
+            groups and one partnership is with <u>UnderDog Devs</u>.
+          </blockquote>
+        </article>
+        <figure>
+          <img src="./img/udacity.jpg" alt="udacity" />
+          <figcaption>Fig.1 - Founder & CEO of Udacity.</figcaption>
+        </figure>
+        <article class="entry-content">
+          <p> UnderDog Devs, founded in September of 2020,
             is a group of software developers supporting the formerly incarcerated &amp; disadvantaged in their
             transition into the software industry.&nbsp; The organization is run entirely by volunteers and has raised
             enough funding to pay their learners a stipend while they learn to code so they can focus 100% of their time
             on learning new skills to achieve a job in tech that will truly transform their lives.<br><br>According to
-            data from the U.S. Bureau of Justice Statistics (BJS), 67.8% of released state prisoners were arrested for a
+            data from the <u>U.S. Bureau of Justice Statistics (BJS)</u>, 67.8% of released state prisoners were arrested for a
             new crime within three years, and 76.7% were arrested within five years (Durose, Cooper, &amp; Snyder,
             2014).&nbsp; Reducing
             <a href="https://prisoninsight.com/recidivism-the-ultimate-guide/#tab-con-9" target="_blank"
@@ -80,8 +87,8 @@
             <li><strong>Richard Dixon – Software Engineer, Corso Systems</strong><br>“I appreciate Udacity so much for
               access to their platform. I took the <a
                 href="https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044" target="_blank"
-                rel="noreferrer noopener">Full Stack Web Development</a> course dealing with Node, Angular and
-              PostgreSQL. I learned a lot and it was very valuable especially with regards to seeing how the backend
+                rel="noreferrer noopener">Full Stack Web Development</a> course dealing with <u>Node</u>, <u>Angular</u> and
+              <u>PostgreSQL</u>. I learned a lot and it was very valuable especially with regards to seeing how the backend
               connects to the frontend and knowing about migrations with SQL on the backend as I was only using MongoDB
               before the course.&nbsp; I would definitely advise a course like this for someone looking to get into
               programming.”</li>
@@ -121,9 +128,9 @@
               target="_blank"
               rel="noreferrer noopener">https://www.businessinsider.com/underdog-devs-coding-bootcamp-tech-skills-developers-mobile-former-felon-2021-9</a>
           </p>
-        </div>
-      </div>
-      <div class="sidebar">
+        </article>
+      </section>
+      <section class="sidebar">
         <div class="related-post">
           <h4>
             Related Posts
@@ -169,10 +176,10 @@
             </li>
           </ul>
         </div>
-      </div>
+      </section>
     </div>
   </div>
-  <div class="footer">
+  <footer class="footer">
     <em>Copyright by Tan2k. All Rights Reserved..</em>
     <div class="contact">
       <a href="#" class="fa fa-facebook-square"></a>
@@ -180,7 +187,7 @@
       <a href="#" class="fa fa-twitter-square"></a>
       <a href="#" class="fa fa-linkedin-square"></a>
     </div>
-  </div>
+  </footer>
   </div>
 </body>
 </html>
