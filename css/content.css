@@ -23,7 +23,7 @@
   background-color: #fff;
 }
 
-.post__info__details {
+.post__details {
   width: 100%;
   margin: 10px 0;
   display: flex;
@@ -31,21 +31,21 @@
   gap: 2px;
 }
 
-.post__info__details img {
+.post__details img {
   width: calc(100% / 3);
 }
 
-.post__info__category {
+.post__category {
   display: flex;
   gap: 2em;
 }
 
-.post__info__title {
+.post__title {
   text-decoration: none;
   font-size: 2em;
 }
 
-.post__info__title--sub {
+.post__title--sub {
   text-decoration: none;
   font-size: 1.2em;
   font-weight: 500;
@@ -98,11 +98,11 @@ img {
     padding: 0;
   }
 
-  .post__info__title {
+  .post__title {
     font-size: 1.2em;
   }
 
-  .post__info__details {
+  .post__details {
     display: none;
   }
 }
